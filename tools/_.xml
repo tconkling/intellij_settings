@@ -1,0 +1,44 @@
+<toolSet name="External Tools">
+  <tool name="copy_editor_resources" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/export/aciv/editor/bin/copy_resources_for_adl" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="/export/aciv/editor" />
+    </exec>
+  </tool>
+  <tool name="corpseplus/desktop-client/bin/copy_resources_for_adl" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/export/corpseplus/desktop-client/bin/copy_resources_for_adl" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="/export/corpseplus/desktop-client" />
+    </exec>
+  </tool>
+  <tool name="update-versioned-resources" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="ant" />
+      <option name="PARAMETERS" value="update-versioned-resources" />
+      <option name="WORKING_DIRECTORY" value="/export/aciv" />
+    </exec>
+  </tool>
+  <tool name="copy_androird_resources" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/export/aciv/android-client/bin/copy_resources_for_adl" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="/export/aciv" />
+    </exec>
+  </tool>
+  <tool name="make_steam_available_to_adl" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/export/aciv/desktop-client/bin/make_steam_available_to_adl.sh" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="/export/aciv/desktop-client/bin" />
+    </exec>
+  </tool>
+  <tool name="copy_ios_resources" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/export/aciv/ios-client/bin/copy_ios_adl_resources.sh" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="/export/aciv/ios-client" />
+    </exec>
+  </tool>
+</toolSet>
